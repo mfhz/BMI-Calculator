@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #0A0E21;
+
+    .row {
+        margin-top: 20px;
+
+        .col-lg-4 {
+
+            .titulo {
+                font-family: 'Raleway', sans-serif;
+                color: #FFFFFF;
+                text-align: center;
+                margin-top: 25px
+            }
+
+            .row {
+
+                .col-lg-6, .col-lg-12 {
+
+                    .fondoItem {
+                        background-color: #FF111328;
+                        height: 130px;
+                        border-radius: 20px;
+                        color: #FFFFFF;
+                    
+                        .contenedor {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            height: inherit;
+                    
+                            .sexo {
+                                font-size: 40px;
+                            }
+                    
+                            .estiloNumero {
+                                font-size: 32px;
+                                font-weight: 800;
+                                margin-top: -30px;
+                    
+                                .cm {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    margin-left: -8px;
+                                }
+                            }
+                    
+                            .form-control-range {
+                                width: 90%;
+                            }
+                    
+                            div {
+                    
+                                .sumaResta {
+                                    cursor: pointer;
+                                    background-color: #FF4C4F5E;
+                                    padding: 7px;
+                                    border-radius: 15px;
+                                    margin-left: 3px;
+                                }
+                            }
+                        }
+                    }
+
+                    .btn {
+                        background-color: #FF3366;
+                        border-color: #FF3366;
+                        border-radius: 25px;
+                        width: 100%;
+                    
+                        &:hover {
+                            background-color: #FF3366;
+                            border-color: #FF3366;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
